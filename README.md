@@ -1,2 +1,2 @@
 # unit
-Activities made in UNiT is stored here!
+Activities made in UNIT is stored here!

@@ -7,10 +7,9 @@ public class Q3 {
             System.out.println("\nFeito por phc-s! 🙌 (JAVA SDK 26)");
             System.out.println("Questão 3, Divisão Inteira (Quociente e Resto).");
 
-            System.out.println("\nInsira o primeiro inteiro (Dividendo): ");
+            System.out.print("\nInsira o primeiro inteiro (Dividendo): ");
             long x = scantool.nextLong();
-
-            System.out.println("\nInsira o segundo inteiro (Divisor): ");
+            System.out.print("Insira o segundo inteiro (Divisor): ");
             long y = scantool.nextLong();
 
             if (y == 0) {
@@ -28,7 +27,7 @@ public class Q3 {
 
         } catch (Exception e) {
 
-            System.err.println("\nERRO: Somente coloque um valor inteiro, nunca coloque outro tipo!");
+            System.err.println("\nERRO: Valor Incorreto!");
 
         } finally {
 

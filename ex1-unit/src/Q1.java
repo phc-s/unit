@@ -7,10 +7,9 @@ public class Q1 {
             System.out.println("\nFeito por phc-s! 🙌 (JAVA SDK 26)");
             System.out.println("Questão 1, Multiplicando Inteiros.");
 
-            System.out.println("\nInsira o primeiro inteiro: ");
+            System.out.print("\nInsira o primeiro inteiro: ");
             long a = scantool.nextLong();
-
-            System.out.println("\nInsira o segundo inteiro: ");
+            System.out.print("Insira o segundo inteiro: ");
             long b = scantool.nextLong();
 
             System.out.println("\nMultiplicação: " + a + " * " + b );
@@ -18,7 +17,7 @@ public class Q1 {
 
         } catch (Exception e){
 
-            System.err.println("\nERRO: Somente coloque um valor inteiro, nunca coloque outro tipo!");
+            System.err.println("\nERRO: Valor Incorreto!");
 
         } finally{
 

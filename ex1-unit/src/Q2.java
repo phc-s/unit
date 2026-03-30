@@ -7,7 +7,7 @@ public class Q2 {
             System.out.println("\nFeito por phc-s! 🙌 (JAVA SDK 26)");
             System.out.println("Questão 2, Sucessor e Antecessor de um Inteiro.");
 
-            System.out.println("\nInsira um inteiro: ");
+            System.out.print("\nInsira um inteiro: ");
             long n = scantool.nextLong();
 
             System.out.println("\nValor Colocado: " + n  );
@@ -16,7 +16,7 @@ public class Q2 {
 
         } catch (Exception e){
 
-            System.err.println("\nERRO: Somente coloque um valor inteiro, nunca coloque outro tipo!");
+            System.err.println("\nERRO: Valor Incorreto!");
 
         } finally{
 
