@@ -4,7 +4,7 @@ public class Q2 {
     public static void main(String[] args) {
         try (Scanner scantool = new Scanner(System.in)) {
 
-            System.out.println("\nFeito por phc-s! 🙌 (JAVA SDK 26)");
+            System.out.println("\nFeito por phc-s! 🙌 (JAVA SE 21)");
             System.out.println("Questão 2, Sucessor e Antecessor de um Inteiro.");
 
             System.out.print("\nInsira um inteiro: ");
@@ -16,7 +16,7 @@ public class Q2 {
 
         } catch (Exception e){
 
-            System.err.println("\nERRO: Valor Incorreto!");
+            System.err.println("\nERRO: Alguma coisa aconteceu de errado no script!");
 
         } finally{
 

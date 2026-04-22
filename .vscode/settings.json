@@ -1,0 +1,7 @@
+{
+    "java.project.sourcePaths": [
+        "ex1-unit/sequenciais/src",
+        "ex1-unit/condicionais/src",
+        "ex1-unit/repetindo"
+    ]
+}

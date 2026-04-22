@@ -8,7 +8,7 @@ public class Q5 {
         try (Scanner scantool = new Scanner(System.in)) {
 
             scantool.useLocale(Locale.US);
-            System.out.println("\nFeito por phc-s! 🙌 (JAVA SDK 26)");
+            System.out.println("\nFeito por phc-s! 🙌 (JAVA SE 21)");
             System.out.println("Questão 5, Conversor de Centímetros para Polegadas. (Use ponto (.) nas decimais) ");
 
             System.out.print("\nInsira o valor em centímetros (cm): ");
@@ -21,7 +21,7 @@ public class Q5 {
 
         } catch (Exception e) {
 
-            System.err.println("\nERRO: Valor Incorreto!");
+            System.err.println("\nERRO: Alguma coisa aconteceu de errado no script!");
 
         } finally {
 

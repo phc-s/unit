@@ -8,7 +8,7 @@ public class Q8 {
         try (Scanner scantool = new Scanner(System.in)) {
 
             scantool.useLocale(Locale.US);
-            System.out.println("\nFeito por phc-s! 🙌 (JAVA SDK 26)");
+            System.out.println("\nFeito por phc-s! 🙌 (JAVA SE 21)");
             System.out.println("Questão 8, Cálculo de Salário + 15% de Comissão.");
 
             System.out.print("\nInsira o salário fixo do vendedor (R$): ");
@@ -25,7 +25,7 @@ public class Q8 {
 
         } catch (Exception e) {
 
-            System.err.println("\nERRO: Valor Incorreto!");
+            System.err.println("\nERRO: Alguma coisa aconteceu de errado no script!");
 
         } finally {
 
